@@ -2,7 +2,7 @@
 .bgimage {
     height:100vh;
     background: url('images/heroImage.JPG');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     justify-content: center;
     /* position:relative; */
