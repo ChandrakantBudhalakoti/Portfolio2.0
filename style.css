@@ -56,6 +56,13 @@
 .servicesText:hover {
     border: 2px solid #008000;
 }
+
+/* project section css */
+.card-body:hover{
+    color: #008000;
+
+}
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
