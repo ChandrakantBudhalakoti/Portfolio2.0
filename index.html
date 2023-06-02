@@ -22,6 +22,7 @@
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
@@ -46,6 +47,8 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                </a>
 
             </div>
         </div>
@@ -58,7 +61,7 @@
                     <h2 class="hero_title">Hi, it's me Chandra Kant Budhalakoti AKA Chetan</h2>
                     <p class="hero_desc">Welcome to my profile!!! I'm Chetan.
                     <pre
-                        id="decs"><b> <i> I created this profile to connect with others who share similar interests and passions.</b></i></pre>
+                        id="decs"><b>I created this profile to connect with others who share similar interests and passions.</b></pre>
                     </p>
                 </div>
             </div>
@@ -118,7 +121,7 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class="fas servicesIcon fa-clock"></i>
+                            <i class="fas servicesIcon fa-clock fa-spin"></i>
                             <h4 class="card-title mt-3">Website Development</h4>
                             <p class="card-text mt-3">"As a web developer, I specialize in creating beautiful,
                                 responsive websites that are both user-friendly and visually appealing. and I am
@@ -201,7 +204,8 @@
             </div>
         </div>
     </section>
-    <!-- portfolio section-->
+
+    <!-- project section-->
     <section id="portfolio">
         <div class="container mt-3">
             <h1 class="text-center">Projects</h1>
@@ -211,10 +215,13 @@
                         <img class="card-img-top" src="images/Project1.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Calculator</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
+                            <p class="card-text">Discover the perfect fusion of HTML, CSS, and JavaScript in my
+                                calculator project. With a sleek interface, this project showcases the seamless
+                                collaboration of these languages. Simplify your calculations and experience the synergy
+                                of HTML,CSS,and JavaScript with this calculator.</p>
                             <div class="text-center">
-                                <a href="https://chandrakantbudhalakoti.github.io/calculator/" target="_blank" class="btn btn-success">Link</a>
+                                <a href="https://chandrakantbudhalakoti.github.io/calculator/" target="_blank"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -225,10 +232,14 @@
                         <img class="card-img-top" src="images/Project2.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Portfolio</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
+                            <p class="card-text">Unleash the power of HTML, CSS, and JavaScript with our impressive
+                                portfolio project. Showcasing your skills and achievements in a visually stunning and
+                                interactive format, this project takes your online presence to new heights. Stand out
+                                from the crowd and captivate your audience with this dynamic combination of languages.
+                            </p>
                             <div class="text-center">
-                                <a href="https://chandrakantbudhalakoti.github.io/Personal-Portfolio/" target="_blank" class="btn btn-success">Link</a>
+                                <a href="https://chandrakantbudhalakoti.github.io/Personal-Portfolio/" target="_blank"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -242,7 +253,8 @@
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry.</p>
                             <div class="text-center">
-                                <a href="https://chandrakantbudhalakoti.github.io/SnakeGame/" target="_blank" class="btn btn-success">Link</a>
+                                <a href="https://chandrakantbudhalakoti.github.io/SnakeGame/" target="_blank"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -258,7 +270,8 @@
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry.</p>
                             <div class="text-center">
-                                <a href="https://chandrakantbudhalakoti.github.io/Simple-Birthday-Wish/" target="_blank" class="btn btn-success">Link</a>
+                                <a href="https://chandrakantbudhalakoti.github.io/Simple-Birthday-Wish/" target="_blank"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -272,7 +285,8 @@
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry.</p>
                             <div class="text-center">
-                                <a href="https://chandrakantbudhalakoti.github.io/milkFarmCalculator/" target="_blank" class="btn btn-success">Link</a>
+                                <a href="https://chandrakantbudhalakoti.github.io/milkFarmCalculator/" target="_blank"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -286,7 +300,8 @@
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry.</p>
                             <div class="text-center">
-                                <a href="https://chandrakantbudhalakoti.github.io/Portfolio2.0/" target="_blank" class="btn btn-success">Link</a>
+                                <a href="https://chandrakantbudhalakoti.github.io/Portfolio2.0/" target="_blank"
+                                    class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -321,7 +336,7 @@
 
                 <div class="col-lg-6">
                     <!-- form fields -->
-                    <form action="https://formspree.io/f/xnqyoydg" method="POST">
+                    <form action="/action.php" method="POST">
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
                         <input type="text" class="form-control mt-3" placeholder="Subject">
@@ -331,7 +346,6 @@
                         </div>
                     </form>
                     <button type="button" class="btn btn-success mt-3">Contact Me</button>
-
                 </div>
 
             </div>
