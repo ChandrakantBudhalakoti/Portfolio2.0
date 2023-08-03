@@ -19,3 +19,20 @@ function myFunction() {
     x.className = "navbar";
   }
 }
+
+
+
+// for recaptcha
+function onSubmit(token) {
+  document.getElementById("demo-form").submit();
+}
+
+// trying
+function onClick(e) {
+  e.preventDefault();
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6Ld3Y3gnAAAAAIcua65E5-q2p3MQIGddDphEbqDL', {action: 'submit'}).then(function(token) {
+        // Add your logic to submit to your backend server here.
+    });
+  });
+}
